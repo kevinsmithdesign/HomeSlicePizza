@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Slice Pizza</title>
+		<meta charset="utf-8">
+
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="reset.css">
+
+<style>
+
+				body {
+					
+
+		
+					background-image: url("assets/images/pizzaBackground2.jpg"); /* jpg looks alright on laptop screen */
+
+					 background-repeat:repeat; 
+					 -webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;	
+				
+				}
+
+				
+
+
+				@font-face {
+					font-family:"wisdom script";
+					src: url("wisdomscript.eot") format('embedded-opentype'),
+					url("wisdomscript.otf") format('opentype');
+				}
+
+				/*   #ec1c24;    */   /* red */
+
+				.logo {
+					width:400px;
+					z-index:100;
+					position:fixed;
+					margin-left:12px;
+
+				}
+
+				.navtop {
+					width:100%;
+					height:18px;
+					background-color:#ec1c24;
+					border-top:solid 4px #0d6e3f; /* green */
+					border-bottom:solid 4px #0d6e3f;
+					position:fixed;
+					top:42px;
+					left:0px;
+					z-index:1;
+					
+				}
+
+				 .navbar {
+					width:100%;
+					height:80px;
+					background-color:#fff3cd;
+					position:fixed;
+					top:60px;
+					left:0px;
+					z-index:1;
+				} 
+
+
+
+				/* .navicons {
+					
+					height:60px;
+					position:relative;
+					left:500px;
+					top:8px;
+				} */
+
+				.navClick {
+					font-family:"wisdom script";
+					color:#0d6e3f;
+					font-size:24px;
+					position:relative;
+					left:400px;
+					top:25px;
+					padding:25px;
+				}
+
+				.navClick:hover {
+					color:#ec1c24;
+					text-decoration:none;
+				}
+
+				.navbottom {
+					width:100%;
+					height:18px;
+					background-color:#ec1c24;
+					border-top:solid 4px #0d6e3f; /* green */
+					border-bottom:solid 4px #0d6e3f;
+					position:fixed;
+					top:140px;
+					left:0px;
+					z-index:1;
+				}
+
+				.jumbotron {
+					background-color:#fff3cd;
+					margin-top:250px;
+					height:750px;
+					width:85%;
+					padding-top:280px;
+					padding-left:20px;
+					margin-right:auto;
+					margin-left:auto;
+					margin-bottom:200px;
+				}
+
+				.menusub {
+					font-size:8px;
+				}
+
+				.green {
+					background-color:#0d6e3f;
+					width:835px;
+					height:5px;
+					margin-top:1120px;
+					margin-left:15px;
+
+				}
+
+				.g2 {
+					background-color:#0d6e3f;
+					width:835px;
+					height:5px;
+					margin-top:1400px;
+					margin-left:15px;
+				}
+
+				.g3 {
+					background-color:#0d6e3f;
+					width:835px;
+					height:5px;
+					margin-top:1530px;
+					margin-left:15px;
+				}
+
+				.red1 {
+					background-color:#ec1c24;
+					margin-top:25px;
+			
+					color:white;
+					padding-top:5px;
+					padding-left:50px;
+					padding-bottom:10px;
+					width:400px;
+				}
+
+				.red2{
+					background-color:#ec1c24;
+					color:white;
+					padding-top:5px;
+					padding-left:50px;
+					padding-right:50px;
+					padding-bottom:10px;
+					width:;
+				}
+
+				.red3 {
+					background-color:#ec1c24;
+					color:white;
+					padding-top:5px;
+					padding-left:50px;
+					padding-right:50px;
+					padding-bottom:10px;
+					margin-top:20px;
+
+				}
+
+				.homepageText {
+					color:#ec1c24;
+					margin-top:-270px;
+					margin-left:400px;
+					font-family:helvetica;
+					font-size:18px !important;
+					font-weight:500 !important;
+					width:450px;
+				}
+
+				h1 {
+					font-family:"wisdom script";
+					color: #0d6e3f !important;
+					font-size:90px !important;
+					margin-top:170px;
+				}
+
+
+				.hours {
+					margin-left:400px;
+					margin-top:30px;
+				}
+
+				.hoursTwo {
+					margin-top:10px;
+					margin-left:400px;
+				}
+
+				h4 {
+					color:#ec1c24;
+				}
+
+				/* .example {
+					width:840px;
+					margin:0 auto;
+				}
+
+				/* #jumboTwo {
+					background-color:white;
+					width:800px;
+					height:400px;
+					margin-top:30px;
+					margin-right:auto;
+					margin-left:auto;
+				} */
+
+				footer {
+					background-color:#0d6e3f;
+					width:100%;
+					height:80px;
+					position:fixed;
+					left:0;
+					bottom:0;
+				}
+
+
+
+
+		
+				
+						
+			
+				
+
+</style>
+
+	</head>
+	<body>
+
+	<img src="assets/images/homeslicelogo.svg" class="logo">
+
+	<header>
+		<div class="navtop"></div>
+		<nav class="navbar">
+		
+	
+		<a href="home.html" class="navClick">Home</a>
+		<a href="about.html" class="navClick">About</a>
+		<a href="homeslice.html" class="navClick">Menu</a>
+		<a href="store.html" class="navClick">Store</a>
+		<a href="contact.html" class="navClick">Contacts</a>
+	
+		</nav>
+
+		<div class="navbottom"></div>
+
+	</header>
+
+	<div class="container">
+		<div class="row">
+		
+				<!--  Left Row -->
+				 <div class="jumbotron"> 
+					<div class="col-lg-12">
+					
+					<div class="container">
+
+					<!-- Comment out
+					<div class="jumbotron" id="jumboTwo">
+						
+					</div>	
+					-->		
+
+
+					<h1>Take Out<br> Menu</h1>
+
+					<p class="homepageText">Home Slice Pizza is an independent neighborhood pizza joint serving authentic New York Style Pizza by the pie or by the slice to nice people like you. We offer our home-made, hand tossed, bona fide pies for either dine in our carry out. Want us to donate something to your event? Giving back is totally our thing, so please emial us an we'll be in touch. Want to share your experiences, feed-back, suggestions, hopes, fears, dreams with us? We'd love to hear from you.</p>
+					<h4 class="hours">Sunday-Thursday 11A.M - 11P.M.</h4>
+					<h4 class="hoursTwo">Friday-Saturday 11A.M. - 3A.M.</h4>
+
+					</div>
+					</div>
+					</div>
+					</div>
+
+
+<footer>
+	
+
+</footer>
+
+
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	</body>
+</html>
