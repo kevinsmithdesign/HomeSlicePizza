@@ -1,0 +1,140 @@
+body {		
+	background-image: url("assets/images/pizzaBackground2.jpg"); /* jpg looks alright on laptop screen */
+	background-repeat:repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+@font-face {
+		font-family:"wisdom script";
+		src: url("wisdomscript.eot") format('embedded-opentype'),
+		url("wisdomscript.otf") format('opentype');
+	}
+
+@font-face {
+		font-family:"futura";
+		src: url("futura.eot") format('embedded-opentype'),
+		url("futura.otf") format('opentype');
+	}
+
+				/*   #ec1c24;    */   /* red */
+
+				.logo {
+					width:400px;
+					z-index:100;
+					position:static;
+					margin-left:12px;
+				}
+
+				.navtop {
+					width:100%;
+					height:18px;
+					background-color:#ec1c24;
+					border-top:solid 4px #0d6e3f; /* green */
+					border-bottom:solid 4px #0d6e3f;
+					position:static;
+					margin-top:-170px;
+					top:92px;
+					left:0px;	
+				}
+
+				.navbar {
+					width:100%;
+					height:80px;
+					background-color:#fff3cd;
+					position:static;
+					top:-50px;
+					left:0px;
+					z-index:1;
+				}
+
+				.navClick {
+					font-family:"wisdom script";
+					color:#0d6e3f;
+					font-size:24px;
+					position:relative;
+					left:400px;
+					top:30px;
+					padding:25px;
+				}
+
+				.navClick:hover {
+					color:#ec1c24;
+					text-decoration:none;
+				}
+
+				.navbottom {
+					width:100%;
+					height:18px;
+					background-color:#ec1c24;
+					border-top:solid 4px #0d6e3f; /* green */
+					border-bottom:solid 4px #0d6e3f;
+					position:static;
+					margin-top:-20px;
+					left:0px;
+					z-index:1;
+				}
+
+				.takeOut {
+					font-family:"wisdom script";
+					color: #0d6e3f !important;
+					font-size:90px !important;
+					line-height:95px;
+				}
+
+				.takeOut:hover {
+					color:#ec1c24 !important;
+					text-decoration:none;
+					font-family:"wisdom script";	
+				}
+
+
+				.jumbotron {
+					background-color:#fff3cd;
+					margin-top:150px;
+					height:300px;
+					width:85%;	
+					padding-left:20px;
+					margin-right:auto;
+					margin-left:auto;
+					margin-bottom:200px;
+				}
+
+				.homepageText {
+					color:#ec1c24;
+					font-family:"futura";
+					font-size:14px !important;
+				}
+
+				h1 {
+					font-family:"wisdom script";
+					color: #0d6e3f !important;
+					font-size:90px !important;
+					margin-top:170px;
+				}
+
+
+				.hours {
+					font-family:"futura";
+					font-weight:bold;
+				}
+
+				.hoursTwo {
+					font-family:"futura";
+					font-weight:bold;
+				}
+
+				h4 {
+					color:#ec1c24;
+				}
+
+				footer {
+					background-color:#0d6e3f;
+					width:100%;
+					height:80px;
+					position:static
+					left:0;
+					bottom:0;
+				}
