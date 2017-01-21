@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+		
+		.wrap {
+			width:600px;
+			height:300px;
+			position:relative;
+			overflow:hidden;
+			background-color:#333;
+			color:#fff;
+			text-align:center;
+		}
+
+		header {
+			background-color:#3E474f;
+			box-shadow: 0 .5em 1em #111;
+			position:absolute;
+			bottom:0;
+			left:0;
+			z-index:900;
+			width:100%;
+		}
+
+		header label {
+			color:#788188;
+			cursor:pointer;
+			display:inline-block;
+			line-height:4.25em;
+			font-size:.667em;
+			font-weight:bold;
+			padding:0 1em;
+		}
+
+		header label:hover {
+			background:#2e353b;
+		}
+
+		.slide {
+			height:100%;
+			width:100%;
+			position:absolute;
+			top:0;
+			left:100%;
+			z-index:10;
+			padding: 8em 1em 0;
+			background-color:#120103;
+			background-position:50%;
+			background-size:cover;
+		}
+
+		.slide-one {
+			background-image: url('10347556_10152950233928606_1508133578262137437_n.jpg');
+		}
+
+		.slide-two {
+			background-image: url('14449932_1298988766778639_2106269822561634692_n.jpg');
+		}
+
+		[id^="slide"]:checked + .slide {
+			left: 0;
+			z-index:100;
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="wrap">
+	<header>
+		<label for="slider-1-trigger">Slide One</label>
+		<label for="slider-2-trigger">Slide Two</label>
+		<label for="slider-3-trigger">Slide Three</label>
+		<label for="slider-4-trigger">Slide Four</label>
+	</header>
+	
+	<input id="slide-1-trigger" type="radio" name="slides" checked>
+	<section class="slide slide-one">
+		<h1>Headline One</h1>
+	</section>
+	<input id="slide-2-trigger" type="radio" name="slides">
+	<section class="slide slide-two">
+		<h1>Headline Two</h1>
+	</section>
+	<input id="slide-3-trigger" type="radio" name="slides">
+	<section class="slide slide-three">
+		<h1>Headline Three</h1>
+	</section>
+	<input id="slide-4-trigger" type="radio" name="slides">
+	<section class="slide slide-four">
+		<h1>Headline Four</h1>
+	</section>
+
+</div>
+
+</body>
+</html>
